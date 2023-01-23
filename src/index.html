@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/responsivo.css">
+    
+
 
     <title>Super Mario Bros</title>
 </head>
@@ -28,16 +30,24 @@
         </video>
     </div>
 
-    <header class="cabecalho">
-        <a>
-            <img class="logo" src="./images/logo-chapeu-mario.png" alt="icone de menu">
-        </a>
-        <nav>
+    <header>
+        <nav class="cabecalho">
+            <a>
+                <img class="logo" src="./images/logo-chapeu-mario.png" alt="icone de menu">
+            </a>           
             <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Detalhes</a></li>
+                <li class="nav-item"><a href="#">Home</a></li>
+                <li class="nav-item"><a href="#">Detalhes</a></li>
             </ul>
-        </nav>
+
+            <div class="hamburguer">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            
+        </nav>       
+
     </header>
 
     <main class="container">
@@ -70,5 +80,6 @@
 
 
     <script src="./js/index.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
 </html>
