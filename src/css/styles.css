@@ -63,7 +63,7 @@ body{
     font-weight: bold;
     cursor: pointer;
     border: none;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     text-transform: uppercase;
     transition: 0.5s all ease-in-out;
 }
@@ -96,7 +96,8 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8016456582633054) 50%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 11%, rgba(0,0,0,0.8016456582633054) 50%, rgba(0,0,0,1) 89%);
+    /* background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8016456582633054) 50%, rgba(0,0,0,1) 100%); */
 }
 
 .modal{
